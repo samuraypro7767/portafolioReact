@@ -5,8 +5,10 @@ export const ItemMain = () => {
   return (
     <>
         <div>
-
+        
           <TextPressure></TextPressure>
+          
+ 
             <section className='ContentMain'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti consequatur nam laudantium quidem, animi iure, cupiditate itaque aspernatur minima recusandae, debitis fugit sit fuga quas ab dolorum voluptates nihil.</p>
                 

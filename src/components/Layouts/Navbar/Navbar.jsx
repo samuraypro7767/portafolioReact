@@ -12,7 +12,6 @@ export const Navbar = () => {
           <ItemNavbarUl contenido="Inicio" link="/" />
           <ItemNavbarUl contenido="Sobre Mi " link="/profile" />
           <ItemNavbarUl contenido="Proyectos" link="/studies" />
-          <ItemImg className="GitHub-logo" src="/imgGitHub.png" />
           
         </ul>
         
