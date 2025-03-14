@@ -10,9 +10,12 @@ export const ItemMain = () => {
           
  
             <section className='ContentMain'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti consequatur nam laudantium quidem, animi iure, cupiditate itaque aspernatur minima recusandae, debitis fugit sit fuga quas ab dolorum voluptates nihil.</p>
-                
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim harum non adipisci? Excepturi quis eveniet eum placeat accusantium nesciunt est suscipit unde pariatur reprehenderit molestiae ex dolorum, temporibus omnis assumenda.</p>
+                <p>Soy una persona responsable, dinámica y orientada a resultados, con un enfoque en la superación continua. Aprendo rápidamente y me adapto con facilidad a nuevos retos, buscando siempre alcanzar objetivos claros y contribuir al éxito de la organización. Estoy comprometido con el cumplimiento de funciones y normativas, y siempre dispuesto a asumir desafíos que favorezcan mi desarrollo profesional.
+                  
+                </p>
+
+
+      
             </section>
         </div>
     </>
