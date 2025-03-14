@@ -14,15 +14,17 @@ export const Profile = () => {
         <div className="capa"></div>
 
         <section className='informationMain' >
-        < InformateAbout TextInformate="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus. 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus." Title="Habilidades" />
-        < InformateAbout TextInformate="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus. 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus." Title="Sobre Mi" />
-        < InformateAbout TextInformate="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus. 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus." Title="Experiencia" />
+              < InformateAbout className="informateAbout" TextInformate="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus. 
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus." Title="Habilidades" />
+
+              < InformateAbout className="informateAbout" TextInformate="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus. 
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus." Title="Sobre Mi" />
+              
+              < InformateAbout className="informateAbout" TextInformate="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus. 
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nostrum exercitationem nemo vero est maiores totam quis neque nulla iusto, sint quidem asperiores tempore aliquam, molestias assumenda recusandae suscipit minus." Title="Experiencia" />
         
           </section>
 
