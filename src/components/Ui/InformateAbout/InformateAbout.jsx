@@ -1,12 +1,23 @@
 import React from 'react'
 
-export const InformateAbout = ({Title,TextInformate,className}) => {
+export const InformateAbout = ({Title,TextInformate,src}) => {
   return (
     <>
-    <section className={className}>
-        <h2>{Title}</h2>
-        <p>{TextInformate}</p>
-    </section>
+    <div className="card">
+        <section class="face front">
+            <img src={src}  />
+            <h3>{Title}</h3>
+        </section>
+
+        <section class="face back">
+          <h3>{Title}</h3>
+          <article className='containerTextCard'> 
+          <p>{TextInformate}</p>
+          </article>
+        </section>
+        
+    </div>
+  
     </>
   )
 }
