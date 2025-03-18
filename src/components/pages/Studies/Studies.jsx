@@ -12,12 +12,12 @@ export const Studies = () => {
     <>
        <Header /> 
        <video id="miVideo" muted autoPlay loop>
-          <source src='/background2.mp4' />
+          <source src='/background1.mp4' />
         </video>
         <div className="capa"></div>
-      <main className="containerStudies my-5 px-4 md:px-8 lg:px-12">
+        <main className="containerStudies my-5 px-4 md:px-8 lg:px-12">
         <div className="overflow-hidden w-full">
-          <div className="containerStudies flex gap-2 flex-nowrap animate-scroll"> {/* Reducir el gap */}
+          <div className="flex gap-4 flex-nowrap animate-scroll">
             {carouselBlogs.map((blog, index) => (
               <CardBlog blog={blog} key={index} />
             ))}

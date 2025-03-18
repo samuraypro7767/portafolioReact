@@ -7,43 +7,48 @@ export const blogs = [
 		category: 'Artesanias',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
+		link: "https://ejemplo.com",
 	},
 	{
 		id: 2,
 		title: 'Socks Tommy',
 		description:
-			'Mientras esta imagen evoca la esencia de un clásico hamburguesa gourmet, permite que nuestra imaginación divague hacia las históricas tabernas de Nueva York a principios del siglo XX, donde el bullicio de la ciudad encontraba consuelo en platos robustos. La tradición culinaria americana se entrelaza con la innovación moderna, transformando simples ingredientes en una experiencia culinaria que trasciende el tiempo. Cada mordida es una narrativa de sabores que habla de calidad, artesanía y la búsqueda constante del sabor perfecto en los rincones más vibrantes y diversos de la cultura urbana.',
+			'Es un sitio web donde se vende diferentes tipos de medias con grandes estilos cuenta con base de datos en php.',
 		category: 'Artesanias',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
+		link: "https://ejemplo.com",
 	},
 	{
 		id: 3,
 		title: 'Flotisteria Palacio',
 		description:
-			' La imagen de este automóvil azul deportivo, capturado en el crepúsculo del desierto, nos lleva a un viaje por la Ruta 66, la carretera más emblemática de América. Nos remonta a la época dorada de los viajes por carretera, un símbolo de aventura y libertad. Este coche no es solo un medio de transporte, sino una cápsula de tiempo que conecta el pasado con el presente, invitando a explorar horizontes desconocidos y a sentir el poder de la máquina y el camino bajo nuestros pies.',
+			' Es un sitio web donde hacen Florez decoradas ,detalles, regalos para una ocacion especial que el cliente quiera regalar.',
 		category: 'artesania',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
+		link: "https://ejemplo.com",
 	},
 	{
 		id: 4,
 		title:
 			'QuickWords',
 		description:
-			' En un mundo saturado de información instantánea y comunicación efímera, la fotografía nos invita a reflexionar sobre el arte perdurable de la escritura. Imaginemos un ensayo detallado sobre la influencia de la tecnología en el lenguaje y la comunicación, explorando cómo las herramientas digitales han expandido las posibilidades de expresión mientras desafían la paciencia y profundidad de nuestra interacción con las palabras. La escritura, como reflejo del pensamiento humano, enfrenta la era digital con adaptabilidad y gracia, manteniendo su esencia en el corazón de la innovación.',
+			' Es un juego de palabras donde los jugadores competiran, el jugador ue inserte mas palabras sera el ganador.',
 		category: 'Juego',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
+		link: "https://quick-words-git-main-samuraypro7767s-projects.vercel.app/index.html",
 	},
 	{
 		id: 5,
 		title:
 			'Travel',
 		description:
-			'Esta representación de una laptop abierta emitiendo una luz vibrante contra un fondo oscuro nos lleva a contemplar el dualismo de la tecnología en nuestras vidas: una fuente de iluminación y conocimiento, pero también una ventana a un abismo de distracciones y desinformación. Podría ser la portada de una novela futurista de Alexander C. Clarke que narra la historia de un mundo donde la realidad virtual ha reemplazado la interacción humana, una reflexión profunda sobre la dependencia de la humanidad a la tecnología y cómo redefine nuestra existencia.',
+			'Es una agencia de viajes donde tiene unas funciones particulares, donde el usuario podra programar sus vuelos.',
 		category: 'Informativo',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
+		link: "https://ejemplo.com",
 	},
 ];
