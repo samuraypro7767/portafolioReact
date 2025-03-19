@@ -59,9 +59,10 @@ html{
 
   main {
     width: 100%;
-    min-height: calc(100vh - 5rem - 12vh); /* Resta la altura del header y el footer */
-    margin-top: 5rem; /* Margen superior igual a la altura del header */
-    margin-bottom: 12vh; /* Margen inferior igual a la altura del footer */
+    min-height: calc(100vh - 5rem - 12vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    z-index: 1; /* Asegura que el contenido esté detrás del header y el footer */
+    z-index: 1; 
   }
