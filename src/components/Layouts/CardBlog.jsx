@@ -3,7 +3,7 @@ export const CardBlog = ({ blog }) => {
 	  <div className="h-full w-[300px] md:w-[350px] lg:w-[350px] m-5 flex-shrink-0 cursor-pointer">
 		<div className="rounded-3xl overflow-hidden mb-5 relative h-[400px] md:h-[250px] lg:h-[250px]">
 		  <img
-			src={`/imgs/blogpost${blog.id}.avif`}
+			src={`/imgs/blogpost${blog.id}.png`}
 			alt={blog.title}
 			className="w-full h-full object-cover"
 		  />

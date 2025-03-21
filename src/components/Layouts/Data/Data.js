@@ -1,33 +1,33 @@
 export const blogs = [
 	{
 		id: 1,
-		title: 'Harmonny Essences',
+		title: 'Clothing-Store',
 		description:
-			'Esta imagen captura una ensalada nutritiva que es un festival de colores y texturas, ofreciendo un equilibrio perfecto entre salud y sabor. La base de hojas verdes crujientes se complementa con rodajas de aguacate cremoso y hortalizas frescas como tomates cherry jugosos, tiras de remolacha y zanahoria crujiente. El toque de proteína viene en forma de garbanzos y cubos de batata asada, todo ello aderezado con un aliño ligero que realza los sabores naturales. Pequeños brotes y semillas de chía esparcidos por encima añaden un acabado nutritivo y estéticamente agradable a la composición. Este plato no solo es un deleite visual, sino también un homenaje a los ingredientes orgánicos y de origen local, invitando a disfrutar de la comida consciente y saludable.',
-		category: 'Artesanias',
+			'Es un sitio web donde se vende ropa de diferentes estilos cuenta con base de datos en php.',
+		category: 'Moda',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
-		link: "https://ejemplo.com",
+		link: "https://project-ropa-git-main-samuraypro7767s-projects.vercel.app/",
 	},
 	{
 		id: 2,
-		title: 'Socks Tommy',
+		title: 'Diccionario',
 		description:
-			'Es un sitio web donde se vende diferentes tipos de medias con grandes estilos cuenta con base de datos en php.',
-		category: 'Artesanias',
+			'Es un sitio web dondes se agregan palabras en ingles o en español y esta traducido en las dos lenguas en diferentes categorias.',
+		category: 'Tecnologia',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
-		link: "https://ejemplo.com",
+		link: "https://dictionary-git-main-samuraypro7767s-projects.vercel.app/",
 	},
 	{
 		id: 3,
-		title: 'Flotisteria Palacio',
+		title: 'Reproductor de musica',
 		description:
-			' Es un sitio web donde hacen Florez decoradas ,detalles, regalos para una ocacion especial que el cliente quiera regalar.',
-		category: 'artesania',
+			' Reproductor de musica almacenada en la base de datos, donde se puede escuchar musica de diferentes artistas.',
+		category: 'Moda',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
-		link: "https://ejemplo.com",
+		link: "https://reproductor-js-uo87-git-main-samuraypro7767s-projects.vercel.app/",
 	},
 	{
 		id: 4,
@@ -43,12 +43,12 @@ export const blogs = [
 	{
 		id: 5,
 		title:
-			'Travel',
+			'Atlas',
 		description:
-			'Es una agencia de viajes donde tiene unas funciones particulares, donde el usuario podra programar sus vuelos.',
+			'Es un pagina que da informacion sobre tecnologias es un sitio de prueba.',
 		category: 'Informativo',
 		author: 'Sebastian Osorio',
 		date: '18 de Noviembre - 2023',
-		link: "https://ejemplo.com",
+		link: "https://proyecto-atlas-pi.vercel.app/",
 	},
 ];

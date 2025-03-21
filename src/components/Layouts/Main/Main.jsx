@@ -14,7 +14,7 @@ export const Main = () => {
     <>
       <main className='main'>
         <video id="miVideo" muted autoPlay loop>
-          <source src='/background2.mp4' />
+          <source src='/background1.mp4' />
         </video>
         <div className="capa"></div>
 
