@@ -1,15 +1,16 @@
 import React, { useEffect } from 'react';
 import { ItemMain } from '../../Ui/ItemMain/ItemMain';
 
-
 export const Main = () => {
   useEffect(() => {
-    
     const videoElement = document.querySelector('video');
     if (videoElement) {
       videoElement.playbackRate = 0.6; 
     }
   }, []); 
+
+
+
   return (
     <>
       <main className='main'>
@@ -20,15 +21,16 @@ export const Main = () => {
 
         <section className='informationMain'>
           <article className='informateText'>
-                        
-
-            <ItemMain> </ItemMain>
+            <ItemMain>
+            
+            </ItemMain>
           </article>
           <section className='containerPhoto'>
             <div className='imgPhoto'></div>
           </section>
         </section>
       </main>
+
     </>
   );
 };

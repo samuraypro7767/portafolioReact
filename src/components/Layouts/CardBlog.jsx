@@ -33,13 +33,13 @@ export const CardBlog = ({ blog }) => {
 			</div>
 		  </div>
 		</div>
-		{/* Botón con color #002EC9 */}
+		{/* Botón con color #2C3E50 */}
 		<a
 		  href={blog.link}
 		  className="mt-4 inline-block px-6 py-2 text-white font-semibold rounded-lg text-center transition-colors duration-300"
-		  style={{ backgroundColor: '#002EC9' }} // Color normal
-		  onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#0044ff')} // Color al pasar el mouse
-		  onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#002EC9')} // Restaurar color
+		  style={{ backgroundColor: '#2C3E50' }} // Color normal
+		  onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#1a8044')} // Color al pasar el mouse
+		  onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#2C3E50')} // Restaurar color
 		>
 		  visitar sitio 
 		</a>

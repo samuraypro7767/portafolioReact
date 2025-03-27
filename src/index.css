@@ -47,7 +47,7 @@ h1 span{
     color:  white;
 }
 h1 {
-    color: #002EF0;
+    color: #3CA141;
     font-style: italic;
     text-align: center;
     width: 20%;
@@ -71,6 +71,11 @@ h1 {
     text-decoration: none;
     color: white;
 }
+.list li a:hover{
+  color: #3CA141;
+}
+
+
 
 
 .GitHub-logo {
@@ -155,7 +160,7 @@ video {
     background: url(../public/profile.png) center center ;
     background-size: cover;
     border-radius: 50%;
-    filter: drop-shadow(0px 0px 26px #002EF0);
+    filter: drop-shadow(0px 0px 10px #3CA141);
 
   }
 
@@ -195,6 +200,12 @@ video {
 }
 .social-icon{
   width: 2.5rem;
+  transition: transform 0.5s ease;
+
+}
+.social-icon:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 10px #3CA141);
 }
 .github{
 
@@ -286,7 +297,7 @@ video {
     width: 100%;
     height: 45px;
     line-height: 45px;
-    color: #002EF0;
+    color: #3CA141;
     background: rgb(0, 0, 0);
     text-align: center;
     font-size: 29px;
@@ -295,7 +306,7 @@ video {
   
   .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background: #c8fff7;
+    background: #5fbf63;
     color: #000000;
     display: flex;
     flex-direction: column;
@@ -303,7 +314,7 @@ video {
     gap: 20px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 5px 10px #002EF0;
+    box-shadow: 0 5px 10px #0c270e;
   }
   
   .card .back h3 {

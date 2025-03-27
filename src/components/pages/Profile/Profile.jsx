@@ -22,7 +22,7 @@ export const Profile = () => {
 
            <InformateAbout src="/experience.jpg" Title="Experiencia" TextInformate="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ad odio provident eveniet. Quo ex deserunt dolorem minus ut iure rem distinctio! Nisi a deleniti tempora reiciendis. Ipsum, ex placeat?"></InformateAbout>
 
-     
+        
           
 
          </section>
