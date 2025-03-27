@@ -3,7 +3,7 @@ import React from 'react';
 import { Header } from '../../Layouts/Header/Header';
 import { Footer } from '../../Layouts/Footer/Footer';
 import { CardBlog } from '../../Layouts/CardBlog';
-import { blogs } from '../../Layouts/Data/data';
+import { blogs } from '../../Layouts/Data/DataCard.js';
 import "./Studies.css"
 export const Studies = () => {
   const carouselBlogs = [...blogs, ...blogs]; 
