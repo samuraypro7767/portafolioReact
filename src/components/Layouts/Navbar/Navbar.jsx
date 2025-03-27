@@ -1,6 +1,5 @@
 import React from 'react'
 import{ItemNavbarUl} from '../../Ui/ItemNavbarUl/ItemNavbarUl.jsx'
-import { ItemImg } from '../../Ui/itemImg/itemImg.jsx'
 
 
 
