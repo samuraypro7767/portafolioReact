@@ -1,0 +1,90 @@
+/* Estilos generales del navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Estilos para la lista en desktop */
+  .list {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .item-navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  
+  /* Estilos para el botón hamburguesa */
+  .hamburger-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1001;
+    position: relative;
+  }
+  
+  .hamburger-line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #2C3E50;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilos para el menú móvil */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px; /* Espacio para el header */
+  }
+  
+  .mobile-menu.open {
+    right: 0;
+  }
+  
+  /* Transformación del botón hamburguesa a X */
+  .hamburger-btn.open .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger-btn.open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-btn.open .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+  
+  /* Media queries para responsive */
+  @media (max-width: 768px) {
+    .hamburger-btn {
+      display: block;
+    }
+  
+    .list:not(.mobile-menu) {
+      display: none;
+    }
+  }

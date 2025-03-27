@@ -335,3 +335,7 @@ video {
     transform: perspective(600px) rotateY(360deg);
   }
   
+    @media (max-width: 768px) {
+    
+      
+    }
