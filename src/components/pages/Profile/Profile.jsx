@@ -16,11 +16,11 @@ export const Profile = () => {
         <section className='informationMain' >
               
        
-           <InformateAbout src="/profile.png" Title="Sobre Mi" TextInformate="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ad odio provident eveniet. Quo ex deserunt dolorem minus ut iure rem distinctio! Nisi a deleniti tempora reiciendis. Ipsum, ex placeat?"></InformateAbout>
+           <InformateAbout src="/profile.png" Title="Sobre Mi" TextInformate="Soy una persona proactiva, comprometida y con gran motivación por alcanzar mis metas. Tengo capacidad de aprendizaje rápido, adaptabilidad y siempre estoy abierto a nuevas ideas. "></InformateAbout>
 
-           <InformateAbout src="/Habilities.jpg" Title="Habilidades" TextInformate="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ad odio provident eveniet. Quo ex deserunt dolorem minus ut iure rem distinctio! Nisi a deleniti tempora reiciendis. Ipsum, ex placeat?"></InformateAbout>
+           <InformateAbout src="/Habilities.jpg" Title="Educacion" TextInformate="Técnico en Programación de Software graduado en 2023 (I.E. Román María Valencia), actualmente culminando mi tecnólogo. Con habilidades en desarrollo de software.  "></InformateAbout>
 
-           <InformateAbout src="/experience.jpg" Title="Experiencia" TextInformate="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ad odio provident eveniet. Quo ex deserunt dolorem minus ut iure rem distinctio! Nisi a deleniti tempora reiciendis. Ipsum, ex placeat?"></InformateAbout>
+           <InformateAbout src="/experience.webp" Title="Objeptivos" TextInformate="Busco oportunidades para crecer profesionalmente  donde pueda aportar mis habilidades técnicas y una de mis meta es crecer como profesional en el campo de la programación, enfrentando nuevos retos que me permitan expandir mis capacidades "></InformateAbout>
 
         
           

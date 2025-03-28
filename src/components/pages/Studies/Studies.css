@@ -5,10 +5,9 @@ html{
 
 
   .containerStudies{
-    width: 100%;
-    height: 70vh;
+    max-width: 100vw;
+    min-height: 70vh;
     position: relative;
-    top: 73px;
     padding: 0;
   }
   @keyframes scroll {

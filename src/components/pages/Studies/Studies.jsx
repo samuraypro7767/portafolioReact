@@ -10,7 +10,7 @@ export const Studies = () => {
 
   return (
     <>
-       <Header /> 
+      <Header ></Header>
        <video id="miVideo" muted autoPlay loop>
           <source src='/background1.mp4' />
         </video>
